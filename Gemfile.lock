@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/ruby/csv
+  revision: 8fc7a023696240852a6c9d01a84d3251c811c9b7
+  specs:
+    csv (3.1.2)
+
 PATH
   remote: .
   specs:
@@ -421,6 +427,7 @@ DEPENDENCIES
   cancancan
   capybara (~> 3.14)
   chandler (= 0.9.0)
+  csv!
   cucumber
   cucumber-rails (~> 1.5)
   database_cleaner

@@ -6,6 +6,8 @@ group :release do
   gem 'chandler', '0.9.0' # Github releases from changelog
 end
 
+gem "csv", git: "https://github.com/ruby/csv"
+
 group :lint do
   # Code style
   gem 'rubocop', '0.63.1'
